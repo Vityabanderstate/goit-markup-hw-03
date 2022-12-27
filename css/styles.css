@@ -7,7 +7,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  width: 1440px;
 }
 .container {
   width: 1158px;
@@ -21,9 +20,8 @@ body {
 }
 .name {
   margin-bottom: 72px;
-  display: flex;
-  justify-content: center;
-}
+  text-align: center;
+  }
 .list {
   list-style: none;
   display: flex;
@@ -43,9 +41,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
-
-}
+  }
 .logo-header {
   color: #2e2f42;
 }
@@ -68,6 +64,7 @@ body {
 }
 .header-list {
   gap: 40px;
+  margin-left: 76px;
 }
 .header-link {
   font-weight: 500;
@@ -86,17 +83,21 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 40px;
 }
 .header-details:hover,
 .header-details:focus {
   color: #4d5ae5;
+}
+.post {
+  margin-right: 40px;
 }
 /* Main index.html */
 /* topic section */
 .topic {
   background-color: #2e2f42;
   display: flex;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .topic-container {
   display: flex;
@@ -112,11 +113,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--topic-text-color);
   width: 494px;
-  margin-top: 188px;
 }
 .topic-button {
   margin-top: 48px;
-  margin-bottom: 188px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -152,6 +151,10 @@ body {
 }
 .principle {
   padding-top: 120px;
+}
+.principle-text {
+  margin-top: 8px;
+  width: 264px;
 }
 .principle-text,
 .team-position {
@@ -196,6 +199,7 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   width: 264px;
+  margin-top: 16px;
   
 }
 /* Portfolio */
@@ -236,19 +240,12 @@ body {
   flex-wrap: wrap;
   }
 
-.banner-item {
-  width: 360px;
-  border: 1px solid #E7E9FC;
-}
-
 .banner-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--principle-title);
-  margin-top: 32px;
-  margin-left: 16px;
 }
 .banner-category {
   font-weight: 400;
@@ -257,9 +254,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-signatures);
   margin-top: 8px;
-    margin-left: 16px;
-    margin-bottom: 32px;
+}
 
+.signature {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid #E7E9FC;
+  border-top: none;
 }
 a {
   text-decoration: none;
