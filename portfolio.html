@@ -11,155 +11,166 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Homework2</title>
+    <title>Homework3</title>
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-header">Studio</span></a
-        >
-        <ul class="header-list list">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-header">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact list">
           <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a>
+            <a class="header-details link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a>
+            <a class="header-details link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="header-contact list">
-        <li class="header-item">
-          <a class="header-details link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-item">
-          <a class="header-details link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <ul class="category list">
-          <li><button type="button" class="category-button">All</button></li>
-          <li>
-            <button type="button" class="category-button">Web Site</button>
-          </li>
-          <li><button type="button" class="category-button">App</button></li>
-          <li><button type="button" class="category-button">Design</button></li>
-          <li>
-            <button type="button" class="category-button">Marketing</button>
-          </li>
-        </ul>
-        <ul class="banner list">
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto1.jpg"
-              alt="portfoliofoto1.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Banking App Interface Concept</h3>
-            <p class="banner-category">App</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto2.jpg"
-              alt="portfoliofoto2.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Cashless Payment</h3>
-            <p class="banner-category">Marketing</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto3.jpg"
-              alt="portfoliofoto3.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Meditaion App</h3>
-            <p class="banner-category">App</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto4.jpg"
-              alt="portfoliofoto4.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Taxi Service</h3>
-            <p class="banner-category">Marketing</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto5.jpg"
-              alt="portfoliofoto5.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Screen Illustrations</h3>
-            <p class="banner-category">Design</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto6.jpg"
-              alt="portfoliofoto6.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Online Courses</h3>
-            <p class="banner-category">Marketing</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto7.jpg"
-              alt="portfoliofoto7.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Instagram Stories Concept</h3>
-            <p class="banner-category">Design</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto8.jpg"
-              alt="portfoliofoto8.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Organic Food</h3>
-            <p class="banner-category">Web Site</p>
-          </li>
-          <li class="banner-item">
-            <img
-              src="images/portfoliofoto9.jpg"
-              alt="portfoliofoto9.jpg"
-              width="360"
-              height="300"
-            />
-            <h3 class="banner-title">Fresh Coffee</h3>
-            <p class="banner-category">Web Site</p>
-          </li>
-        </ul>
+      <section class="section-port">
+        <div class="container">
+          <ul class="category list">
+            <li><button type="button" class="category-button">All</button></li>
+            <li>
+              <button type="button" class="category-button">Web Site</button>
+            </li>
+            <li><button type="button" class="category-button">App</button></li>
+            <li>
+              <button type="button" class="category-button">Design</button>
+            </li>
+            <li>
+              <button type="button" class="category-button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="banner list">
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto1.jpg"
+                alt="portfoliofoto1.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Banking App Interface Concept</h3>
+              <p class="banner-category">App</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto2.jpg"
+                alt="portfoliofoto2.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Cashless Payment</h3>
+              <p class="banner-category">Marketing</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto3.jpg"
+                alt="portfoliofoto3.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Meditaion App</h3>
+              <p class="banner-category">App</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto4.jpg"
+                alt="portfoliofoto4.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Taxi Service</h3>
+              <p class="banner-category">Marketing</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto5.jpg"
+                alt="portfoliofoto5.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Screen Illustrations</h3>
+              <p class="banner-category">Design</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto6.jpg"
+                alt="portfoliofoto6.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Online Courses</h3>
+              <p class="banner-category">Marketing</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto7.jpg"
+                alt="portfoliofoto7.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Instagram Stories Concept</h3>
+              <p class="banner-category">Design</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto8.jpg"
+                alt="portfoliofoto8.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Organic Food</h3>
+              <p class="banner-category">Web Site</p>
+            </li>
+            <li class="banner-item">
+              <img
+                src="images/portfoliofoto9.jpg"
+                alt="portfoliofoto9.jpg"
+                width="360"
+                height="300"
+              />
+              <h3 class="banner-title">Fresh Coffee</h3>
+              <p class="banner-category">Web Site</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo link" href="./index.html"
-        >Web<span class="logo-footer">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="logo link" href="./index.html"
+          >Web<span class="logo-footer">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
