@@ -88,16 +88,12 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-icon {
-  fill: #434455;
-}
+
 .header-details:hover,
 .header-details:focus {
   color: #4d5ae5;
 }
-.header-details:hover .header-icon {
-  fill: #4d5ae5;
-}
+
 .post {
   margin-right: 40px;
 }
@@ -183,17 +179,16 @@ font-style: normal;
   color: var(--text-signatures);
 }
 
-.principle-item {
+.principle-frame {
   width: 264px;
-  height: 112px;
+height: 112px;
   background-color: #F4F4FD;
     border-radius: 4px;
 
 }
-.principle-item::before {
-  display: block;
+.principle-frame::before {
+  display: inline-block;
   content: "";
-height: 112px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
@@ -203,24 +198,24 @@ width: 64px;
   margin-top: 24px;
 }
 
-.principle-item.icon-anten::before {
+.icon-anten::before {
   background-image: url('../images/antenna.svg');
 }
 
-.principle-item.icon-clock::before {
+.icon-clock::before {
   background-image: url('../images/clock.svg');
 }
 
-.principle-item.icon-diagram::before {
+.icon-diagram::before {
   background-image: url('../images/diagram.svg');
 }
 
-.principle-item.icon-astronaut::before {
+.icon-astronaut::before {
   background-image: url('../images/astronaut.svg');
 }
 
 .principle-title {
-  margin-top: 32px;
+  margin-top: 8px;
 }
 
 .visual-title,
@@ -301,10 +296,14 @@ width: 100%;
   align-items: center;
   justify-content: center;
 }
-.comp-link:hover {
+.comp-link:hover,
+.comp-link:focus
+ {
 border-color: #404BBF;
 }
-.comp-link:hover .comp-icon {
+.comp-link:hover .comp-icon,
+.comp-link:focus
+.comp-icon {
   fill: #404BBF;
 }
 .comp-icon {
@@ -363,12 +362,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.footer-soc-link :hover,
-.footer-soc-link :focus {
-  width: 100%;
-  height: 100%;
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #31D0AA;
-  border-radius: 50%;
 }
 
 .footer-soc-icon {
@@ -416,8 +412,8 @@ justify-content: center;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.banner-shadow :hover,
-.banner-shadow :focus {
+.banner-shadow:hover,
+.banner-shadow:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16),
   0px 2px 1px rgba(46, 47, 66, 0.08);
