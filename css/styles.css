@@ -413,11 +413,17 @@ transition: background-color var(--hover-animation);
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }  
 
+.footer-button-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 .footer-form-text {
-  width: 259px;
+  width: 264px;
   height: 40px;
   padding-left: 16px;
   margin-right: 24px;
@@ -560,8 +566,6 @@ position: relative;
   fill: #4D5AE5;
 }
 
-
-
 .input-text {
   font-weight: 400;
   font-size: 12px;
@@ -570,7 +574,6 @@ position: relative;
   display: inline-block;
   margin-bottom: 4px;
 }
-
 
 .modal-comment {
   width: 100%;
