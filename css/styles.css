@@ -552,7 +552,7 @@ position: relative;
 }
 
 .modal-icon {
-  fill: transparent;
+  fill: #2E2F42;
   transition: fill var(--hover-animation);
 }
 
