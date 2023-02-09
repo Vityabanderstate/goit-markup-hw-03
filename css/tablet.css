@@ -90,12 +90,20 @@ display: flex;
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    topic {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-                url(../images/people-offfice-768-2x.jpg)
+    .topic {
+        background-image: var(--topic-gradient),
+                url(../images/people-offfice-768-2x.jpg);
             }
         }
+
+.topic-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    width: 494px;
+}
 
 
 .topic-button {
@@ -131,6 +139,17 @@ display: flex;
         column-gap: 24px;
     }
 
+
+.cust-comp {
+    gap: 72px;
+    column-gap: 24px;
+
+}
+
+.comp-item {
+    width: 168px;
+    height: 88px;
+}
 
 .footer-container {
     justify-content: left;

@@ -1,13 +1,25 @@
 @media screen and (min-width: 1200px) {
 
     .container {
-        width: 1140px;
+        width: 1158px;
     }
 
     .section {
         padding-top: 120px;
         padding-bottom: 120px;
     }
+
+
+.header {
+    
+    padding-bottom: 28px;
+}
+
+
+.header-contact {
+    display: flex;
+    gap: 40px;
+}
 
 
     .topic {
@@ -23,9 +35,8 @@
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .hero-index {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
+    .topic {
+        background-image: var(--topic-gradient),
             url(../images/people-office-1400-2x.jpg);
     }
 }
@@ -35,6 +46,9 @@
     margin-top: 48px;
 }
 
+.principle {
+    padding-bottom: 0;
+}
 
     .principle-list {
         flex-wrap: nowrap;
@@ -42,7 +56,7 @@
     }
 
     .principle-item {
-        width: calc((100% - 96px) / 4);
+        width: 264px;
     }
 
     .principle-title {
@@ -51,6 +65,9 @@
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--principle-title);
+             margin-top: 8px;
+            text-align: center;
+        
     }
 
 

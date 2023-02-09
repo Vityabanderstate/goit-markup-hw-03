@@ -14,8 +14,8 @@ body {
 }
 .container {
 
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .header {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 16px;
 
 
   border-bottom: 1px solid #e7e9fc;
@@ -182,7 +182,8 @@ body {
 
 .mobile-media {
   display: flex;
-  justify-content: space-between;
+  gap: 56px;
+
   
   margin-top: 48px;
 }
@@ -232,9 +233,8 @@ body {
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-  .section-title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+  .topic {
+    background-image: var(--topic-gradient),
       url(../images/people-office-428-2x.jpg);
   }
 }
@@ -308,7 +308,6 @@ body {
 }
 
 .principle-title {
-  margin-top: 8px;
   text-align: center;
 }
 
@@ -413,7 +412,7 @@ body {
 }
 
 .comp-item {
-  width: calc((100% - 30px) / 2);
+  width: calc((100% - 16px) / 2);
   height: 88px;
 }
 
